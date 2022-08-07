@@ -13,7 +13,7 @@ The confusion matrix demonstrates the performance of the algorithm by displaying
 * Oversampling:
 ![oversample all](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%201%20%20oversample%20all.png)
 
-Oversampling is used to increase minority classes and is used when there are a minority of instances of that class in the training set.  Random oversampling randomly selects data until the minority and majority classes are balanced.  In this example the balanced accuracy is about .64, 
+Oversampling is used to increase minority classes and is used when there are a minority of instances of that class in the training set.  Random oversampling randomly selects data until the minority and majority classes are balanced.  
 
 * Undersampling: 
 ![undersample all](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%201%20undersample%20all.png)
