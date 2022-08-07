@@ -13,7 +13,7 @@ The confusion matrix demonstrates the performance of the algorithm by displaying
 * Oversampling:
 ![oversample all](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%201%20%20oversample%20all.png)
 
-Oversampling is used to increase minority classes and is used when there are a minority of instances of that class in the training set.  Random oversampling randomly selects data until the minority and majority classes are balanced.  
+* Oversampling is used to increase minority classes and is used when there are a minority of instances of that class in the training set.  Random oversampling randomly selects data until the minority and majority classes are balanced.  
 
 * Undersampling: 
 ![undersample all](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%201%20undersample%20all.png)
@@ -22,12 +22,12 @@ Undersampling addresses class imbalance by decreasing the size of the majority c
 * SMOTE:
 ![Smote all](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%201%20smote%20all.png)
 
-SMOTE stands for "Synthetic Minority Oversampling Technique" and addresses and imbalanced dataset by oversampling the minority class. SMOTE differs from random oversampling because it generates synthetic observations.  The reliability of SMOTE can be problematic because there is a danger of outliers. 
+* SMOTE stands for "Synthetic Minority Oversampling Technique" and addresses and imbalanced dataset by oversampling the minority class. SMOTE differs from random oversampling because it generates synthetic observations.  The reliability of SMOTE can be problematic because there is a danger of outliers. 
 
 ### Deliverable 2: SMOTEEN
 ![Smoteen all](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%202%20smoteen%20all.png)
 
-SMOTEEN is a technique that combines undersampling and oversampling in an effort to deal with an inbalanced dataset.  SMOTEEN adds "EEN" or "Edited Nearest Neighbor" to the SMOTE technique in a two-step process.  The first step oversamples the minority class and the second step drops a datapoint if the two nearest neightbors of that datapoint belong to different classes.  
+* SMOTEEN is a technique that combines undersampling and oversampling in an effort to deal with an inbalanced dataset.  SMOTEEN adds "EEN" or "Edited Nearest Neighbor" to the SMOTE technique in a two-step process.  The first step oversamples the minority class and the second step drops a datapoint if the two nearest neightbors of that datapoint belong to different classes.  
 
 
 ### Deliverable 3: Balanced Ranodm Forest Classifier and Easy Ensemble Classifier
@@ -35,9 +35,11 @@ SMOTEEN is a technique that combines undersampling and oversampling in an effort
 * Balanced Ranodm Forest Classifier:   
 ![Balanced Forrest](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%203%20bal%20forest%20all.png)
 
-Random Forest classifiers select samples from the trainng dataset and fit each sample to a decision tree.  The Balanced Random Forest randomly undersamples the marjority data class in an effort to reach the bootstrap sample.
+* Random Forest classifiers select samples from the trainng dataset and fit each sample to a decision tree.  The Balanced Random Forest randomly undersamples the marjority data class in an effort to reach the bootstrap sample.
 
 * Easy Ensemble Classifier
 ![easy classifier](https://github.com/laurlen2112/credit_risk_analysis/blob/main/resources/del%203%20class%20bal%20accruacy%20all.png)
 
-To create balanced samples of the data the Easy Ensemble Classifier uses a subdivision of the majority data and selects all of the minority class.  
+* To create balanced samples of the data the Easy Ensemble Classifier uses a subdivision of the majority data and selects all of the minority class.  
+
+## Summary:
